@@ -41,3 +41,5 @@ local function minNum()
     return p
 end
 print(minNum())
+
+print(math.max(120, 300, 400, 740))
