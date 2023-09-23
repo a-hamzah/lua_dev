@@ -22,3 +22,25 @@ local name1 = "John Wick"
 print(#name1) -- string length
 local name2 = "Team"
 print(name2)
+-- Conversion from number to string
+local xo = 22
+local str = tostring(xo)
+print(type(xo))
+print(type(str))
+
+local ki = "BIG BAD WOODOO"
+print(string.lower(ki))
+
+-- print a part of string
+local ko = "Hello World"
+print(string.sub(ko, 6,10))
+
+-- conversion from ASCII to string and vice versa
+
+print(string.char(65))
+print(string.byte("a"))
+
+local lo = "Aa"
+print(string.byte(lo, 1, 99)) -- converts the lo string to ASCII
+
+print(string.rep("Kick!", 10, ":"))
