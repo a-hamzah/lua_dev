@@ -32,3 +32,12 @@ print(addNums1(1,3))
 print(math.random())
 print(math.pi)
 print(math.random(5)) -- prints the number between 1 to 5
+print(math.random(50,60))
+-- print(math.randomseed(os.time()))
+
+-- if we have a list
+local function minNum()
+    local p = math.min(10, 5, 7, 9, 11)
+    return p
+end
+print(minNum())
