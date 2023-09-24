@@ -43,4 +43,10 @@ print(string.byte("a"))
 local lo = "Aa"
 print(string.byte(lo, 1, 99)) -- converts the lo string to ASCII
 
-print(string.rep("Kick!", 10, ":"))
+print(string.rep("Kick!", 10, ":")) -- repeat something
+
+local first, last = string.find("Hello World!", "ello") -- position of letters in a string (starts from 1)
+print("First: " .. first .. "\nLast: " .. last)
+
+local ch = string.gsub("King", "n", "!") -- to replace a letter inside string
+print(ch)
