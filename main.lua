@@ -33,7 +33,7 @@ print(string.lower(ki))
 
 -- print a part of string
 local ko = "Hello World"
-print(string.sub(ko, 6,10))
+print(string.sub(ko, 4,99))
 
 -- conversion from ASCII to string and vice versa
 
